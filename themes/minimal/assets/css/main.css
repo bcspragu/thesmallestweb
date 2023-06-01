@@ -1,0 +1,22 @@
+body {
+  max-width:  650px;
+  margin: 40px auto;
+  padding: 0 10px;
+  color: #444;
+  font-size: 18px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #fafafa;
+    background: #18181b;
+  }
+
+  a:link {
+    color: #58a6ff;
+  }
+
+  a:visited {
+    color:#8e96f0;
+  }
+}

@@ -1,15 +1,29 @@
 body {
   max-width:  650px;
   margin: 40px auto;
-  padding: 0 10px;
-  color: #444;
-  font-size: 18px;
+  padding: 0 20px;
+  color: #18181b;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  color: #18181b;
+  background-color: #18181b;
+  opacity: 0.25;
 }
 
 @media (prefers-color-scheme: dark) {
   body {
     color: #fafafa;
     background: #18181b;
+  }
+
+  hr {
+    color: #fafafa;
+    background-color: #fafafa;
   }
 
   a:link {
@@ -19,4 +33,17 @@ body {
   a:visited {
     color:#8e96f0;
   }
+}
+
+.homepage-header {
+  text-align: center;
+}
+
+.homepage-header h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+}
+
+p {
+  text-align: justify;
 }

@@ -2,8 +2,8 @@
   <main aria-role="main">
     <header class="homepage-header">
       <h1>{{ .Title }}</h1>
-      {{ with .Params.subtitle }}
-      <span class="subtitle">{{ . }}</span>
+      {{ with .PublishDate }}
+      <span class="subtitle">{{ .Format "January 2, 2006" }}</span>
       {{ end }}
     </header>
     <div class="homepage-content">
